@@ -1,0 +1,156 @@
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*100% = 1em = 16px --> 90/16 = 5.625em = 562.5%*/
+  margin: 50px auto 0;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /*40px/16 = 2.5rem*/
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom-style: none;
+  height: 0;
+  margin: 100px auto;
+  width: 5%;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p{
+    line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.headshot {
+  height: 200px;
+  margin-top: 50px;
+  width: 200px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.profile{
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 100px auto 100px;
+  text-align: left;
+  width: 50%;
+}
+
+.browser-icon {
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.mic-icon {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+.middle-container{
+  margin: 100px 0;
+  text-align: center;
+}
+.contact-me {
+  line-height: 2;
+  margin: 0 auto 50px auto;
+  text-align: center;
+
+}
+
+.contact-me-subtitle {
+  margin: 40px auto 60px;
+  text-align: center;
+  width: 40%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  line-height: 2;
+  margin: 0 auto 0;
+  padding: 50px 0 20px;
+}
+
+.myButton {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem
+  padding 20px 0;
+}
